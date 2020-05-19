@@ -1,0 +1,20 @@
+h1,input
+{
+    font-family: 'Audiowide';
+    font-size: 22px;
+}
+input {
+    font-size: 16px;
+}
+
+.hide{
+    display: none;
+}
+.no-border{
+    border: none;
+}
+.rr
+{
+    color:red;
+    font-family: fantasy;
+}
