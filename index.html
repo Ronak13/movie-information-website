@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    
+    <style>
+        body{
+            background:linear-gradient(to left,lightblue,lightcyan);
+        }
+        .w3-allerta {
+         font-family: "Allerta Stencil", Sans-serif;
+    }
+    </style>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    <div class="w3-containe w3-allertar">
+        <h1 class=" w3-container w3-center">Know information about your favourtie movie</h1>
+        <center>
+            <input class="w3-input w3-border" id="inputTxt" type="text" placeholder="Type movie name" style="width: 50%;;">
+            <br>
+            <button class="w3-btn w3-black" id="search-btn">Search</button>
+        </center>
+        <br/>
+        <h1 class="w3-container w3-center hide rr" id="no-result">No such a movie found</h1>
+        <div class="hide" id="result-found">
+            <div class="w3-row no-border" id="all">
+                <div class="w3-col w3-container" id="movie-poster" style="width:20%"><img src="p.jpg" width="3 50" height="330"></div>
+                <div class="w3-col w3-container" style="width:80%">
+                    <div class="w3-container">
+                        <h2 id="movie-name">No Entry</h2>  
+                        <div id="table-display">
+                            <table class="w3-table-all w3-hoverable">
+                            </table>
+                        </div>
+                      </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
