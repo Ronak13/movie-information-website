@@ -1,2 +1,3 @@
 # movie-information-website
-Find information about your favorite movie
+This site provides detailed information about searched movie 
+It uses OMDB API to fetch information
